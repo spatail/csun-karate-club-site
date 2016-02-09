@@ -1,0 +1,209 @@
+body {
+	font-family: Trebuchet MS, Arial, Geneva, sans-serif;
+	font-size: medium;
+	background-color: silver;
+	text-align: center;
+}
+
+#main {
+  margin: 0px auto;
+  text-align: left;
+  width: 50em;
+}
+
+#kanji {
+	margin-top: 10.6em;
+	float: left;
+	padding: 2px;
+	border: 1px solid #000000;
+	border-right: none;
+	background: #ffffff
+}
+
+#banner {
+	margin-top: 1em;
+	background-color: #ffffff;
+	background-repeat: no-repeat;
+	background-position: 258px 0px;
+	background-image: url(./images/banner_bg_edited.png);
+	border: 1px solid #000000;
+	border-bottom: none;
+	height: 130px
+}
+
+#club-logo {
+	float: left;
+	margin: 5px 0 0 20px;
+	font-family: arial;
+	font-size: 28px;
+	font-weight: bold;
+	letter-spacing: 50px;
+	line-height: 40px;
+	color: maroon
+}
+
+#skif-logo {
+	float: right;
+	padding: 12px
+}
+
+.tabArea {
+	background-color: #f0f0f0;
+	border-top: 1px dashed #000000;
+	border-bottom: 1px dashed #000000;
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+	padding: 2px;
+	text-align: right;
+	font-size: 80%;
+	cursor: hand;
+}
+
+a.tab {
+	text-decoration: none;
+}
+
+a.tab:hover {
+	color: #505050;
+	text-decoration: underline;
+}
+
+a.activeTab:hover {
+	text-decoration: none;
+}
+
+a.tab, a.tab:visited {
+	color: #808080;
+}
+
+a.tab.activeTab, a.tab.activeTab:visited {
+	color: #000000;
+}
+
+.tabMain {
+	background-color: #ffffff;
+	background-image: url(./images/bgShotokan.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+	border-top: 0px;
+	border-bottom: 0px;
+	padding: 3em;
+	overflow: auto;
+}
+
+#link {
+	text-decoration: none;
+	color: maroon;
+}
+
+#link:hover  {
+	text-decoration: underline;
+}
+
+#senseiPic1 {
+	float: right;
+	margin-left:10px;
+	margin-bottom:10px;
+}
+
+#senseiPic2 {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+#clubPic {
+	margin-left: 55px;
+}
+
+#beachPic {
+	margin-left: 30px;
+	padding: 1px;
+	height: 288px;
+	width: 531px;
+	border: 3px solid #000000;
+}
+
+#mapImg {
+	width: 160px;
+	height: 179px;
+}
+
+table {
+	border-collapse: collapse;
+	width: 600px;
+	font-size: 15px;
+}
+
+th {
+	padding: 0 0.5em;
+	text-align: left;
+	background: #f0f0c0;
+	border-top: 1px solid #fb7a31;
+	border-bottom: 1px solid #fb7a31;
+}
+
+td {
+	border-bottom: 1px solid #CCC;
+	padding: 0 0.5em;
+}
+
+#footer {
+	border: 1px solid #000000;
+	border-top-style: dashed;
+	background-color: #f0f0f0;
+	padding: 2px;
+	text-align: center;
+	font-size: x-small;
+}
+
+#secret {
+	position: absolute;
+	display: block;
+	visibility: hidden;
+	background: white;
+	border: 1px solid red;
+	padding: 5px;
+}
+
+.thumbnail {
+	float: left;
+	padding: 4px;
+	margin: 0 20px 30px 0;
+	width: 175px;
+	-moz-opacity: 0.8;
+}
+
+div.thumbnail {
+	behavior: url('IEFixes.htc');
+}
+
+div.thumbnail:hover, div.thumbnail.hover {
+	background: maroon;
+	-moz-opacity: 1.0;
+}
+
+#clearboth {
+	clear: both;
+}
+
+#closeButton {
+	text-decoration: none;
+	color: maroon;
+	cursor: hand;
+}
+
+#closeButton:hover {
+	font-weight: bold;
+}
+
+#close-bar {
+	text-align: right;
+	display: block;
+	background-image: url(./images/gradient_gray.gif);
+	background-repeat: repeat;
+	padding: 2px;
+}
